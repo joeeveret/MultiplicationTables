@@ -42,16 +42,10 @@ public class MultiplicationTables {
 
             System.out.println("\n Your score is " + score +"\n");
             proceed = convert.charAt(0);
-
-        
-
-
             
         }
 
-
-
-    }
+    }//End main method
 
     public static boolean Verification(int first, int second, String userInput){
 
@@ -64,6 +58,6 @@ public class MultiplicationTables {
             return false;
         }
 
-    }
+    }//End Verification method
 
-}
+}//End MultiplicationTables class
